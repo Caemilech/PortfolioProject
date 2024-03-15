@@ -1,0 +1,18 @@
+[
+    {
+        "pictures": "sass.svg",
+        "description": "Sass Logo"
+    },
+    {
+        "pictures": "javascript.svg",
+        "description": "Javascript Logo"
+    },
+    {
+        "pictures": "react.svg",
+        "description": "React Logo"
+    },
+    {
+        "pictures": "redux.svg",
+        "description": "Redux Logo"
+    }
+]

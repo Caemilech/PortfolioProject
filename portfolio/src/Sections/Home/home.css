@@ -1,0 +1,37 @@
+main{
+    margin: 4rem 2rem 2rem 2rem;
+}
+
+.presentation{
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;    
+    gap: .5rem;
+    
+}
+
+.about > h1, .about > h2{
+    color: #948667;
+}
+
+.about > p {
+    color: white;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;    
+}
+
+.projects{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}

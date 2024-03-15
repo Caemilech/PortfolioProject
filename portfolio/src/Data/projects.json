@@ -1,0 +1,26 @@
+[
+    {
+        "title": "OhMyFood",
+        "text": "OhmyFood est un site de restaurants, sélectionnez un restaurant et un plat.",
+        "pictures": "github.svg",
+        "description": "Github Logo",
+        "stack": "sass.svg",
+        "stackDescription": "Sass Logo"
+    },
+    {
+        "title": "Sophie Bluel",
+        "text": "Un site portfolio d'architecte avec une interface administrateur sécurisée.",
+        "pictures": "github.svg",
+        "description": "Github Logo",
+        "stack": "javascript.svg",
+        "stackDescription": "Javascript Logo"
+    },
+    {
+        "title": "Kasa",
+        "text": "Kasa est un site d'annonces de logement.",
+        "pictures": "../../Pictures/Icons/github.svg",
+        "description": "Github Logo",
+        "stack": "../../Pictures/Icons/react.svg",
+        "stackDescription": "Javascript Logo"
+    }
+]

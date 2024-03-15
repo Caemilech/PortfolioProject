@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.header-text{
+    display: flex;
+    gap: 2rem;
+}
+
+.header-text > span{
+    color: #9a5cd0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.header-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}

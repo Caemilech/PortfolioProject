@@ -1,0 +1,17 @@
+[
+    {
+        "pictures": "github.svg",
+        "description": "Github Logo",
+        "link": "#"
+    },
+    {
+        "pictures": "linkedin.svg",
+        "description": "Linkedin Logo",
+        "link": "#"
+    },
+    {
+        "pictures": "email.svg",
+        "description": "Email Link",
+        "link": "#"
+    }
+]
