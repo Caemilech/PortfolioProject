@@ -5,7 +5,9 @@ const Projects = ({pictures, description, stack, stackDescription, text, title})
     return (
         <>                     
                 <div className="border">
-                    
+                        <div className="border project-label">
+                            <span>Projet</span>
+                        </div>
                         <div className="project-icon">
                             <img src={"./Pictures/Icons/"+pictures} alt={description}></img>
                         </div>

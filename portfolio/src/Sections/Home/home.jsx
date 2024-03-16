@@ -10,7 +10,10 @@ import projects from "../../Data/projects.json"
 
 const Home = () => {
     return (
-        <>
+        <div className="main">
+        <div className="main-container">
+            <div className="main-container-inner">
+            <div>
             <Header/>
             <main>
                 <div className="presentation">
@@ -23,9 +26,14 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="skills">
+                        <div className="border">
+                        <h2>Skills</h2>
+                        </div>
+                        <div className="skills-container">
                         {skills.map((data) =>
                             <Skills pictures={data.pictures} description={data.description} key={data.description} />
                         )}
+                        </div>
                     </div>
                 </div>
                 <div className="projects">
@@ -36,7 +44,10 @@ const Home = () => {
                 </div>
             </main>
             <Footer/>
-        </>
+            </div>
+            </div>
+            </div>
+        </div>
     )
 }
 

@@ -8,6 +8,9 @@ header{
 .header-text{
     display: flex;
     gap: 2rem;
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
 }
 
 .header-text > span{
@@ -20,4 +23,8 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+    @media (max-width: 768px){
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }

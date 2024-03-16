@@ -4,7 +4,6 @@ const Skills = ({pictures, description}) => {
     return (
         <>
             
-                
                 <div className='border'>
                 
                         <div className="border-icon">

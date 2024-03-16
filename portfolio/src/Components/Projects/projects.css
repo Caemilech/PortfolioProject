@@ -14,6 +14,21 @@
     background: #2c3038;
 }
 
+.project-label{
+    top: 12px;
+    left: 34px;
+    transform: translate(-50%, -50%);
+    width: 4rem;
+    padding: 10px;
+    background: #2c3038;
+}
+
+.project-label > span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #948667;
+}
+
 .project-text{
     display: flex;
     padding: 40px 10px 20px;
