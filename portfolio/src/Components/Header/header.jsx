@@ -7,8 +7,7 @@ const Header = () => {
                 <header>
                         <div className="header-text">
                                 <span>Nicolas Morandi</span>
-                                <span>Intégrateur Web</span>
-                        </div>
+                        </div>       
                         <div className="header-link">
                                 {links.map((data) =>
                                         <Link link={data.link} pictures={data.pictures} description={data.description} key={data.description} />

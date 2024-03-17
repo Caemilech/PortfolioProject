@@ -1,7 +1,7 @@
 [
     {
         "title": "OhMyFood",
-        "text": "OhmyFood est un site de restaurants, sélectionnez un restaurant et un plat.",
+        "text": "Cette application a été intégré en mobile first avec un loader personalisé. A partir de la maquette figma, j'ai intégré une page d'acceuil ainsi que différentes pages menu. Ce projet m'a permis de développer mes connaissances en animations CSS et de découvrir SASS.",
         "pictures": "github.svg",
         "description": "Github Logo",
         "stack": "sass.svg",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Sophie Bluel",
-        "text": "Un site portfolio d'architecte avec une interface administrateur sécurisée.",
+        "text": "A partir de la maquette figma, j'ai intégré une page de connexion et j'ai mis en place l'affichage dynamqiue des travaux du portfolio via une API. En plus de cela, j'ai intégré une modale permettant à l'administrateur du site d'ajouter ou de supprimer des travaux. Ce projet m'a permis de développer mes connaissances en JavaScript et de manipuler une API avec Swagger.",
         "pictures": "github.svg",
         "description": "Github Logo",
         "stack": "javascript.svg",
@@ -17,10 +17,10 @@
     },
     {
         "title": "Kasa",
-        "text": "Kasa est un site d'annonces de logement.",
-        "pictures": "../../Pictures/Icons/github.svg",
+        "text": "A partir de la maquette figma et d'un fichier JSON, j'ai intégré les données sur le site. Ce projet m'a permis de découvrir React et de développer mes connaissances en SASS.",
+        "pictures": "github.svg",
         "description": "Github Logo",
-        "stack": "../../Pictures/Icons/react.svg",
-        "stackDescription": "Javascript Logo"
+        "stack": "react.svg",
+        "stackDescription": "React Logo"
     }
 ]

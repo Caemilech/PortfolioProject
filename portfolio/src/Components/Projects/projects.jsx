@@ -13,7 +13,7 @@ const Projects = ({pictures, description, stack, stackDescription, text, title})
                         </div>
                         <div className="project-text">
                             <img src={"./Pictures/Icons/"+stack} alt={stackDescription}></img>
-                            <p>{text}<br></br>a<br></br>a</p>
+                            <p>{text}</p>
                         </div>
                         <div className="project-name">
                             <h2>{title}</h2>

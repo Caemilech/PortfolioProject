@@ -1,5 +1,5 @@
 
-    @media (min-width: 768px){
+   
         .main-container{
             
             max-height: 100vh;
@@ -7,7 +7,7 @@
             
         }
        
-    }
+    
 .main-container-inner{
     width: 100vw;
     
@@ -26,7 +26,7 @@
     overflow-y: auto;
 }
 main{
-    margin: 4rem 2rem 2rem 2rem;
+    margin: 4rem 2rem;
 }
 
 .presentation{
@@ -63,6 +63,7 @@ main{
 
 .skills > .border > h2{
     padding: 10px;
+    text-transform: uppercase;
     text-align: center;
     color: #948667;
 }
@@ -79,13 +80,13 @@ main{
 .projects{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 4rem;
     
-    @media (max-width: 768px){
+    @media (max-width: 1024px){
         margin-top: 5rem;
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
         gap: 5rem;
     }
 }

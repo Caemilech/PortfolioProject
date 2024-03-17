@@ -15,16 +15,18 @@
 }
 
 .project-label{
-    top: 12px;
-    left: 34px;
+    top: 16px;
+    left: 50px;
     transform: translate(-50%, -50%);
-    width: 4rem;
+    width: 6rem;
     padding: 10px;
     background: #2c3038;
 }
 
 .project-label > span{
     text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #948667;
 }
@@ -51,12 +53,13 @@
 
 
 .project-name > h2{
-    font-size: 2rem;
-    color: #9a5cd0;
+    
+    color: #948667;
     text-transform: uppercase;
 }
 
 .project-text > p{
+    color: white;
     margin-left: 20px;
     font-size: 14px;
 }

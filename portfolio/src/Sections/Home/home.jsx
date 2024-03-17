@@ -21,8 +21,9 @@ const Home = () => {
                         <h1>Nicolas Morandi</h1>
                         <h2>Intégrateur Web</h2>
                         <p>
-                        Je suis Intégrateur Web. J'ai intégré plusieurs applications côté Front-End pendant ma formation
-                        OpenClassroom d'intégratuer web. Je suis créatif, j'aime concevoir des projets et j'aime apprendre.
+                        Durant ma formation OpenClassroom d'Intégrateur Web, j'ai intégré plusieurs applications qui m'ont permis
+                        d'apprendre les bases du Front-End. Etant quelqu'un de créatif, j'aime créer et apprendre de nouvelles 
+                        méthodes de création. 
                         </p>
                     </div>
                     <div className="skills">
