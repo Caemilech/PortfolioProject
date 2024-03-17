@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 4rem 4rem 4rem;
+    @media (max-width: 768px){
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+.header-text > span{
+    color: #948667;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}

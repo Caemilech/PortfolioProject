@@ -1,0 +1,60 @@
+main{
+    margin: 4rem;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    @media (max-width: 768px){
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+.about{
+    display: flex;
+    flex-direction: column;    
+    gap: .5rem;
+}
+
+.about > h1, .about > h2{
+    color: #948667;
+}
+
+.about > p {
+    color: white;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills > .border > h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: #948667;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;    
+    @media (max-width: 375px){
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.projects{
+    display: grid;
+    gap: 4rem;
+    margin-top: 4rem;
+    @media (max-width: 1024px){
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+}
+

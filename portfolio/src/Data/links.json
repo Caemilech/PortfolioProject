@@ -1,0 +1,17 @@
+[
+    {
+        "pictures": "github.svg",
+        "description": "Github Logo",
+        "link": "https://github.com/Caemilech/"
+    },
+    {
+        "pictures": "linkedin.svg",
+        "description": "Linkedin Logo",
+        "link": "#"
+    },
+    {
+        "pictures": "email.svg",
+        "description": "Email Link",
+        "link": "mailto:nicolas.morandi@orange.fr"
+    }
+]

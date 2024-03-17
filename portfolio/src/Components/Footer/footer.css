@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin: 4rem 4rem 2rem 4rem;
+}
+
+footer > span {
+    color: white;
+}
