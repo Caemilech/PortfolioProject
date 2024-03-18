@@ -7,7 +7,7 @@ const Link = ({pictures, description, link}) => {
                 <div className="border-icon">
                     <div>
                         <a href={link}>
-                            <img src={"PortfolioProject/Pictures/Icons/"+pictures} alt={description} />
+                            <img src={"/PortfolioProject/Pictures/Icons/"+pictures} alt={description} />
                         </a>
                     </div>
                 </div>

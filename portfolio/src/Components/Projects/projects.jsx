@@ -10,11 +10,11 @@ const Projects = ({pictures, description, stack, stackDescription, text, title, 
                 </div>
                 <div className="project-icon">
                     <a href={link}>
-                    <img src={"PortfolioProject/Pictures/Icons/"+pictures} alt={description}></img>
+                    <img src={"/PortfolioProject/Pictures/Icons/"+pictures} alt={description}></img>
                     </a>
                 </div>
                 <div className="project-text">
-                    <img src={"PortfolioProject/Pictures/Icons/"+stack} alt={stackDescription}></img>
+                    <img src={"/PortfolioProject/Pictures/Icons/"+stack} alt={stackDescription}></img>
                     <p>{text}</p>
                 </div>
                 <div className="project-name">

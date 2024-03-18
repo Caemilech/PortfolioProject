@@ -5,7 +5,7 @@ const Skills = ({pictures, description}) => {
         <>
             <div className='border'>
                 <div className="border-icon">
-                    <img src={"PortfolioProject/Pictures/Icons/"+pictures} alt={description} />
+                    <img src={"/PortfolioProject/Pictures/Icons/"+pictures} alt={description} />
                 </div>
             </div>   
         </>

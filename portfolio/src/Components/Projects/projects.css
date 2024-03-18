@@ -21,9 +21,6 @@
     align-items: center;
     justify-content: center;
     background: #2c3038;
-    @media (max-width: 768px) {
-        left: 100%;
-    }
 }
 
 .project-label > span{
@@ -57,4 +54,10 @@
     font-size: 14px;
     margin-left: 20px;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .project-icon{
+        left: 100%;
+    }
 }

@@ -6,10 +6,6 @@ main{
     display: flex;
     align-items: center;
     gap: 10rem;
-    @media (max-width: 768px){
-        flex-direction: column;
-        gap: 5rem;
-    }
 }
 
 .about{
@@ -43,18 +39,30 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;    
-    @media (max-width: 375px){
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 .projects{
     display: grid;
     gap: 4rem;
     margin-top: 4rem;
-    @media (max-width: 1024px){
+}
+
+@media (max-width: 1024px){
+    .projects{
         gap: 5rem;
         margin-top: 5rem;
     }
 }
 
+@media (max-width: 768px){
+    .presentation{
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 375px){
+    .skills-container{   
+        grid-template-columns: 1fr 1fr;
+    }
+}
