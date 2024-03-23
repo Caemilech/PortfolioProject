@@ -1,0 +1,15 @@
+{
+    "title": "Mentions légales",
+    "textLaw": "Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Nicolas Morandi l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.",
+    "titleEditeurSite": "Editeur du Site :",
+    "textSite": "Le présent site, accessible à l'URL",
+    "siteLink":"https://caemilech.github.io/PortfolioProject/",
+    "siteName":"https://caemilech.github.io\n/PortfolioProject/",
+    "textEditeurSite":"est édité par Nicolas Morandi, résidant en France.",
+    "titleHebergement": "Hébergement :",
+    "textHebergement": "Le site est hébergé par l'entreprise Github, situé à San Francisco, Californie, États-Unis.",
+    "titleContact": "Nous contacter :",
+    "textContact": "Par email :",
+    "textContactLink": "nicolas.morandi@orange.fr.",
+    "contactLink":"mailto:nicolas.morandi@orange.fr"
+}

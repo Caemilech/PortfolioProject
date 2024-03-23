@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Skills = ({pictures, description}) => {
     return (
         <>
-            <div className='border'>
+            <div className='border border-animation'>
                 <div className="border-icon">
                     <img src={"/PortfolioProject/Pictures/Icons/"+pictures} alt={description} />
                 </div>

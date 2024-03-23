@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin: 2rem 4rem 4rem 4rem;
 }
@@ -9,6 +9,7 @@ header{
     color: #948667;
     font-size: 2rem;
     font-weight: bold;
+    
 }
 
 .header-link{
@@ -17,9 +18,10 @@ header{
     gap: 2rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 900px){
     header{
         flex-direction: column;
+        justify-content: center;
         gap: 2rem;
     }
 }

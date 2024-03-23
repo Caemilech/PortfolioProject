@@ -2,6 +2,11 @@ main{
     margin: 4rem;
 }
 
+main > .logo > .arrow-left > .logo-text{
+    width: 11ch;
+    animation: typing 2s steps(11), blink .5s step-end infinite alternate;
+}
+
 .presentation{
     display: flex;
     align-items: center;
@@ -39,6 +44,19 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;    
+}
+
+.skills > .border{
+    transition: all 0.3s;
+}
+
+.skills > .border::before{
+    transition: all 0.3s;
+}
+
+.skills:hover > .border::before{
+    opacity: 0;
+    transform: scale(0.95,0.75);
 }
 
 .projects{

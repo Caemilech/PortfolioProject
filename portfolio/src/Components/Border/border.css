@@ -4,7 +4,7 @@
     border-radius: 9px;  
 }
 
-.border:before{
+.border::before{
     position: absolute;
     top: -10px;
     left: -10px;
@@ -23,4 +23,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.border-animation::before{
+    transition: all 0.3s;
+}
+
+.border-animation:hover::before{
+    opacity: 0;
+    transform: scale(0.75,0.75);
 }

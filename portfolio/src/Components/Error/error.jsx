@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom'
+import error from "../../Data/error.json"
 import "./error.css"
 
 const Error = () => {
     return (
-        <div className='error-container'>
-            <h1 className='error-name'>404</h1>
-            <span className='error-text'>Oups! La page que vous demandez n'existe pas.</span>
-            <Link to='/'>Retourner sur la page d'acceuil</Link>
-        </div>
+        <>
+        <section className='error-container'>
+            <h1 className='error-name'>{error.title}</h1>
+            <span className='error-text'>{error.text}</span>
+            <Link to='/'>{error.linkHome}</Link>
+        </section>
+        </>
     )
 }
 

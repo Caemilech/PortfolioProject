@@ -1,5 +1,6 @@
 [
     {
+        "label": "Projet",
         "title": "OhMyFood",
         "text": "Cette application a été intégrée en mobile first avec un loader personnalisé. À partir de la maquette figma, j'ai intégré une page d'accueil ainsi que différentes pages menu. Ce projet m'a permis de développer mes connaissances en animations CSS et de découvrir SASS.",
         "pictures": "github.svg",
@@ -9,6 +10,7 @@
         "link": "https://github.com/Caemilech/ohmyfood"
     },
     {
+        "label": "Projet",
         "title": "Sophie Bluel",
         "text": "À partir de la maquette figma, j'ai intégré une page de connexion et j'ai mis en place l'affichage dynamique des travaux du portfolio via une API. En plus de cela, j'ai intégré une modale permettant à l'administrateur du site d'ajouter ou de supprimer des travaux. Ce projet m'a permis de développer mes connaissances en JavaScript et de manipuler une API avec Swagger.",
         "pictures": "github.svg",
@@ -18,6 +20,7 @@
         "link": "https://github.com/Caemilech/Projet_6_OC.git"
     },
     {
+        "label": "Projet",
         "title": "Kasa",
         "text": "À partir de la maquette figma et d'un fichier JSON, j'ai intégré les données sur le site. Ce projet m'a permis de découvrir React et de développer mes connaissances en SASS.",
         "pictures": "github.svg",

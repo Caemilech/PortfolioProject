@@ -1,0 +1,17 @@
+{
+    "header":{
+        "logoText": "Bienvenue !"
+    },
+    "footer":{
+        "legalNotices": "Mentions légales",
+        "copyright": "Copyright © 2024 Nicolas Morandi"
+    },
+    "home":{
+        "skillsTitle": "Skills",
+        "logoText": "Bienvenue !"
+    },
+    "mentionsLegales":{
+        "logoText": "Retour !",
+        "link":"/"
+    }
+}

@@ -1,17 +1,15 @@
 import PropTypes from 'prop-types'
 
-const Link = ({pictures, description, link}) => {
+const Link = ({ pictures, description, link }) => {
     return (
         <>
-            <div className="border">
-                <div className="border-icon">
-                    <div>
-                        <a href={link}>
-                            <img src={"/PortfolioProject/Pictures/Icons/"+pictures} alt={description} />
-                        </a>
+            <div className="border border-animation">
+                <a href={link}>
+                    <div className="border-icon">
+                        <img src={"/PortfolioProject/Pictures/Icons/" + pictures} alt={description} />
                     </div>
-                </div>
-            </div>    
+                </a>
+            </div>
         </>
     )
 }

@@ -12,16 +12,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  overflow-x: hidden;
 }
-
-.main-container{    
-  max-height: 100vh;
-  max-width: 100vw;         
-}
-    
-.main-container-inner{
+   
+.main-container{
   width: 100vw;
   max-width: 1280px;
 }

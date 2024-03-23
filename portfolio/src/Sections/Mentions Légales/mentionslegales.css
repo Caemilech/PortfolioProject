@@ -1,0 +1,40 @@
+.mentions-legales{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.mentions-legales > h1{
+    font-size: 2rem;
+}
+
+.mentions-legales > .logo > .arrow-left > .logo-text{
+    width: 8ch;
+    animation: typing 2s steps(8), blink .5s step-end infinite alternate;
+}
+
+.editeurdusite, .hebergement, .contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.editeurdusite > h2, .hebergement > h2, .contact > h2 {
+    margin-bottom: 1rem;
+}
+
+.mentions-legales > h1, .editeurdusite > h2, .hebergement > h2, .contact > h2 {
+    color: #948667;
+}
+
+.mentions-legales > p, .editeurdusite > p, .hebergement > p, .contact > p {
+    color: white;
+}
+
+.editeurdusite > a, .contact > a{
+    color: white;
+}
+
+.contact > h2{
+    white-space: nowrap;
+}
